@@ -1,0 +1,198 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500;600;700&display=swap");
+* {
+  font-family: "poppins", sans-serif;
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  outline: none;
+  border: none;
+  text-decoration: none;
+  text-transform: capitalize;
+}
+
+body {
+  background: white;
+}
+
+.btn {
+  margin-top: 0;
+  border: 1px solid #41eb96;
+  border-radius: 1rem;
+  padding: 0.2rem;
+  text-align: center;
+}
+
+.navbar {
+  padding-left: 2rem;
+  padding-top: 1rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.navbar .logo img {
+  margin-right: 10px;
+  height: 30px;
+  padding-top: 0.5rem;
+}
+
+.navbar .logo a {
+  font-size: 25px;
+  font-weight: normal;
+  color: #41eb96;
+}
+
+.navbar .login {
+  padding-left: 50rem;
+  padding-top: 1rem;
+}
+
+.navbar .login a {
+  font-size: 20px;
+  color: #41eb96;
+  margin-right: 2rem;
+  padding: 0.7rem 2rem;
+}
+
+.navbar .login a:hover {
+  color: white;
+  background: #41eb96;
+}
+
+.otp {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+  padding: 10rem;
+}
+
+.otp h6 {
+  padding-top: 1rem;
+}
+
+.otp h6 span {
+  margin-left: 12rem;
+  color: #0094ff;
+  cursor: pointer;
+}
+
+.otp h6 span:hover {
+  color: red;
+}
+
+.otp h3 {
+  font-size: 3rem;
+}
+
+.otp p {
+  font-size: 1rem;
+  padding: 1rem;
+}
+
+.otp .row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding-left: 20rem;
+  padding-top: 1rem;
+}
+
+.otp .row input {
+  border: 1px solid #61bd8f;
+  margin-right: 2rem;
+  width: 5rem;
+  height: 5rem;
+  border-radius: 5px;
+  font-size: 24px;
+  text-align: center;
+}
+
+.content {
+  padding: 5rem 9%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.content .column {
+  width: 50%;
+}
+
+.content .column img {
+  padding-top: 4rem;
+}
+
+.content .column .container {
+  border: 3px solid #41eb96;
+  text-align: center;
+  padding: 4rem;
+  border-radius: 18px;
+}
+
+.content .column .container h4 {
+  font-size: 2rem;
+  color: #41eb96;
+}
+
+.content .column .container p {
+  font-size: 1rem;
+  padding: 0.5rem;
+}
+
+.content .column .container p .check {
+  font-size: 10px;
+}
+
+.content .column .container input,
+.content .column .container h4,
+.content .column .container p,
+.content .column .container select {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin: 0 auto;
+}
+
+.content .column .container input[type="text"],
+.content .column .container input[type="password"],
+.content .column .container input[type="tel"],
+.content .column .container select {
+  width: 90%;
+  padding: 14px 20px;
+  margin: 15px 0;
+  display: inline-block;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  border: 1px solid #41eb96;
+  border-radius: 5px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.content .column .container button {
+  background: #41eb96;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border-radius: 0.5rem;
+  cursor: pointer;
+  width: 90%;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-size: 18px;
+}
+/*# sourceMappingURL=reg.css.map */

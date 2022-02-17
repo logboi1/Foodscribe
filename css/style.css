@@ -18,7 +18,6 @@ html {
 
 body {
   background: #41eb96;
-  padding-bottom: 6.5rem;
 }
 
 section {
@@ -31,7 +30,6 @@ section {
   background: white;
   left: 0;
   right: 0;
-  padding-bottom: 1rem;
   clear: both;
 }
 
@@ -76,6 +74,7 @@ section {
   border-radius: 1rem;
   -webkit-transition: 0.2s linear;
   transition: 0.2s linear;
+  padding-top: 8px;
 }
 
 .navbar .nav a:hover {
@@ -105,7 +104,6 @@ section {
   margin-top: 0;
   border: 1px solid #41eb96;
   border-radius: 1rem;
-  padding: 0.2rem;
   text-align: center;
 }
 
@@ -204,7 +202,7 @@ section {
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
   gap: 4rem;
-  min-height: calc(100vh - 6.5rem);
+  height: 717px;
 }
 
 .home .image {
@@ -472,7 +470,7 @@ h2.btn {
 .pricing {
   padding-top: 0;
   background-color: #fff;
-  height: 1500px;
+  height: 995px;
 }
 
 .pricing .heading {
@@ -480,15 +478,419 @@ h2.btn {
 }
 
 .pricing .heading h2 {
-  font-size: 44px;
+  font-size: 3.5rem;
   font-weight: normal;
+  text-align: center;
+  padding-top: 100px;
+}
+
+.pricing .heading p {
+  font-size: 1.5rem;
+  text-align: center;
+  padding-bottom: 2rem;
+}
+
+.pricing .heading a {
+  color: white;
+  font-size: 1.5rem;
+  background-color: #41eb96;
+  padding: 0.5rem 4rem;
+}
+
+.pricing .heading img {
+  padding-bottom: 2rem;
+}
+
+.pricing .period {
+  text-align: center;
+  padding-top: 35px;
+}
+
+.pricing .period a {
+  padding: 1rem 3rem;
+  background: #f4f3f3;
+  border-radius: 20px;
+  padding-left: 0.5rem;
+  font-size: 1.5rem;
+  color: black;
+}
+
+.pricing .period a span {
+  background: white;
+  padding: 0.8rem;
+  border-radius: 20px;
+  margin-right: 20px;
+}
+
+.pricing .period p {
+  padding-top: 30px;
+  font-size: 1.5rem;
+}
+
+.pricing .period p span {
+  background: #41eb96;
+  color: white;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+.pricing .header {
+  padding-top: 50px;
+  text-align: center;
+}
+
+.pricing .header span {
+  background: #41eb96;
+  color: white;
+  font-size: 1.5rem;
+  border: 1px solid;
+  padding: 7px 79px;
+}
+
+.pricing .card {
+  float: left;
+  width: 33.33%;
+  text-align: center;
+  padding: 3.5rem;
+}
+
+.pricing .card .box {
+  border: 1px solid #4eb3704a;
+  -webkit-box-shadow: 0px 4px 10px #00000026;
+          box-shadow: 0px 4px 10px #00000026;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  padding-bottom: 80px;
+}
+
+.pricing .card .box i {
+  margin-right: 10px;
+  color: #41eb96;
+}
+
+.pricing .card .box .expo {
+  padding-top: 50px;
+}
+
+.pricing .card .box .expo h5 {
+  font-size: 1.5rem;
+  font-weight: normal;
+  text-align: justify;
+  padding-left: 50px;
+  padding-right: 40px;
+  padding-bottom: 20px;
+  color: black;
+}
+
+.pricing .card .box .expo i {
+  margin-right: 10px;
+  clear: both;
+}
+
+.pricing .card .box h3 {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  font-size: 1.7rem;
+}
+
+.pricing .card .box a {
+  padding: 10px 24px;
+  font-size: 1.5rem;
+  font-weight: normal;
+  color: #41eb96;
+}
+
+.pricing .card .box a #span {
+  background: #41eb96;
+  color: white;
+}
+
+.pricing .card .box p {
+  font-size: 3.5rem;
+  color: #41eb96;
+  font-weight: bold;
+  padding-bottom: 40px;
+}
+
+.pricing .card .box p .ngn {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+.pricing .card .box p .s2 {
+  font-size: 1.5rem;
+}
+
+.test {
+  background: white;
+  height: 650px;
+}
+
+.test .heading {
+  text-align: center;
+}
+
+.test .heading h2 {
+  font-size: 3.5rem;
+  font-weight: normal;
+  text-align: center;
+  padding-top: 50px;
+}
+
+.test .heading p {
+  font-size: 1.5rem;
+  text-align: center;
+  padding-bottom: 2rem;
+}
+
+.test .heading a {
+  color: white;
+  font-size: 2rem;
+  background-color: #41eb96;
+  padding: 1rem 4rem;
+}
+
+.test .heading a:hover {
+  background: white;
+  color: #41eb96;
+  border: 1px solid #41eb96;
+}
+
+.test .heading img {
+  padding-bottom: 2rem;
+}
+
+.testimonial {
+  background: #f4f3f3;
+  height: 500px;
+}
+
+.testimonial .heading {
+  text-align: center;
+}
+
+.testimonial .heading h2 {
+  font-size: 3.5rem;
+  font-weight: normal;
+  text-align: center;
+  padding-top: 50px;
+}
+
+.testimonial .heading p {
+  font-size: 1.5rem;
+  text-align: center;
+  padding-bottom: 2rem;
+}
+
+.testimonial .container {
+  float: left;
+  width: 33.33%;
+  padding: 2rem;
+}
+
+.testimonial .container .box {
+  border: 1px solid #4eb3704a;
+  -webkit-box-shadow: 0px 4px 10px #00000026;
+          box-shadow: 0px 4px 10px #00000026;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  padding: 30px;
+}
+
+.testimonial .container h6 {
+  margin-top: 10px;
+  font-size: 1rem;
+  font-weight: normal;
+}
+
+.testimonial .container img {
+  float: left;
+  margin-right: 20px;
+  border-radius: 50%;
+  clear: both;
+}
+
+.testimonial .container h5 {
+  padding-top: 15px;
+}
+
+.testimonial .container h5 .checked {
+  color: orange;
+}
+
+.before {
+  height: 40px;
+  background: white;
+}
+
+.pref {
+  height: 200px;
+  background: black;
+  color: white;
+  padding-top: 1.5rem;
+  display: block;
+}
+
+.pref h3 {
+  font-size: 2.5rem;
+}
+
+.pref h3 img {
+  height: 30px;
+  margin-right: 10px;
+}
+
+.pref .container1 {
+  float: left;
+  width: 25%;
+  padding: 1rem;
+}
+
+.pref .container {
+  float: left;
+  width: 33.3%;
+  padding: 1rem;
+}
+
+.pref .container .subscribe h5 {
+  font-size: 2rem;
+}
+
+.pref .container .subscribe p {
+  font-size: 1rem;
+}
+
+.pref .container .subscribe input {
+  padding: 0.5rem;
+  width: 20rem;
+  margin-top: 2rem;
+}
+
+.pref .container .subscribe a {
+  font-size: 1.5rem;
+  padding: 0.5rem;
+  background: #c5c5c5;
+  color: black;
+}
+
+.pref .container2 {
+  float: right;
+  width: 33.3%;
+  padding-right: 0;
+}
+
+.pref .container2 .download h5 {
+  font-size: 2rem;
+}
+
+.pref .container2 .download img {
+  margin-right: 1.5rem;
+}
+
+.pref .container2 .download p {
+  font-size: 1rem;
+  margin-left: 5rem;
+}
+
+.pref .container2 .download a {
+  font-size: 1rem;
+  padding: 0.5rem 4rem;
+  margin: 1rem;
+  color: white;
+  margin-top: 2rem;
+}
+
+.pref .container2 .download a span {
+  text-transform: uppercase;
+}
+
+.after {
+  height: 165px;
+  background: white;
   text-align: center;
   padding-top: 10px;
 }
 
-.pricing .heading p {
-  font-size: 12px;
-  text-align: center;
+.after h2 {
+  font-size: 3.5rem;
+}
+
+.after img {
+  margin-right: 30px;
+}
+
+.footer {
+  background: #292727;
+  height: 415px;
+}
+
+.footer .container .row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.footer .container .row .footer-col {
+  width: 20%;
+  padding: 0 15px;
+}
+
+.footer .container .row .footer-col ul {
+  list-style: none;
+}
+
+.footer .container .row .footer-col ul li {
+  line-height: 20px;
+}
+
+.footer .container .row .footer-col ul a {
+  color: white;
+  font-size: 1rem;
+  font-weight: normal;
+}
+
+.footer .container .row .footer-col h4 {
+  color: #c5c5c5;
+  font-size: 1.5rem;
+  padding-bottom: 1rem;
+}
+
+.footer .footer-last {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  padding-top: 10rem;
+}
+
+.footer .footer-last .row {
+  width: 80%;
+}
+
+.footer .footer-last .row a {
+  font-size: 1rem;
+  margin-right: 20px;
+  color: white;
+}
+
+.footer .footer-last .row2 h4 {
+  font-size: 1rem;
+  color: white;
+  padding-bottom: 10px;
+  font-weight: normal;
+}
+
+.footer .footer-last .row2 img {
+  margin-right: 20px;
+  cursor: pointer;
+}
+
+/* register styling */
+.register {
+  background: white;
 }
 
 /* media queries  */

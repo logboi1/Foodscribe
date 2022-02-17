@@ -1,0 +1,169 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500;600;700&display=swap");
+
+* {
+  font-family: "poppins", sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: none;
+  border: none;
+  text-decoration: none;
+  text-transform: capitalize;
+}
+body {
+  background: white;
+}
+
+.btn {
+  margin-top: 0;
+  border: 1px solid #41eb96;
+  border-radius: 1rem;
+  // background: #edf0ee;
+  padding: 0.2rem;
+  text-align: center;
+}
+.navbar {
+  padding-left: 2rem;
+  padding-top: 1rem;
+  display: flex;
+  flex-wrap: wrap;
+
+  .logo {
+    img {
+      margin-right: 10px;
+      height: 30px;
+      padding-top: 0.5rem;
+    }
+
+    a {
+      font-size: 25px;
+      font-weight: normal;
+      color: #41eb96;
+    }
+  }
+
+  .login {
+    padding-left: 50rem;
+    padding-top: 1rem;
+    a {
+      font-size: 20px;
+      color: #41eb96;
+      margin-right: 2rem;
+      padding: 0.7rem 2rem;
+
+      &:hover {
+        color: white;
+        background: #41eb96;
+      }
+    }
+  }
+}
+.otp {
+  //display: flex;
+  align-items: center;
+  text-align: center;
+  padding: 10rem;
+
+  h6 {
+    padding-top: 1rem;
+
+    span {
+      margin-left: 12rem;
+      color: #0094ff;
+      cursor: pointer;
+
+      &:hover {
+        color: red;
+      }
+    }
+  }
+
+  h3 {
+    font-size: 3rem;
+  }
+  p {
+    font-size: 1rem;
+    padding: 1rem;
+  }
+
+  .row {
+    display: flex;
+    padding-left: 20rem;
+    padding-top: 1rem;
+    input {
+      border: 1px solid #61bd8f;
+      margin-right: 2rem;
+      width: 5rem;
+      height: 5rem;
+      border-radius: 5px;
+      font-size: 24px;
+      text-align: center;
+    }
+  }
+}
+.content {
+  padding: 5rem 9%;
+  display: flex;
+  flex-wrap: wrap;
+
+  .column {
+    width: 50%;
+    img {
+      padding-top: 4rem;
+    }
+    .container {
+      border: 3px solid #41eb96;
+      text-align: center;
+      padding: 4rem;
+      border-radius: 18px;
+
+      h4 {
+        font-size: 2rem;
+        color: #41eb96;
+      }
+      p {
+        font-size: 1rem;
+        padding: 0.5rem;
+
+        .check {
+          font-size: 10px;
+        }
+      }
+      input,
+      h4,
+      p,
+      select {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: 0 auto;
+      }
+
+      input[type="text"],
+      input[type="password"],
+      input[type="tel"],
+      select {
+        width: 90%;
+        padding: 14px 20px;
+        margin: 15px 0;
+        display: inline-block;
+        box-sizing: border-box;
+        border: 1px solid #41eb96;
+        border-radius: 5px;
+        align-items: center;
+      }
+
+      button {
+        background: #41eb96;
+        color: white;
+        padding: 14px 20px;
+        margin: 8px 0;
+        border-radius: 0.5rem;
+        cursor: pointer;
+        width: 90%;
+        align-items: center;
+        font-size: 18px;
+      }
+    }
+  }
+}

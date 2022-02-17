@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" type="text/css" href="css/dbd.css" />
+
+    <!-- font awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+    />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.4/Chart.js"></script>
+
+    <title>Dashboard</title>
+  </head>
+  <body>
+    <!-- navbar section start -->
+
+    <div class="topbar">
+      <img src="img/Group 115 (1).png" alt="" />
+      <h2>foodscribe</h2>
+      <h3>Hi <span>Admin</span></h3>
+      <input
+        type="search"
+        name="search"
+        id=""
+        placeholder="search service and catergories"
+      />
+      <button type="submit">Search</button>
+
+      <i class="fa fa-bell"></i>
+      <i class="fa fa-shopping-cart"></i>
+      <img src="img/user.png" alt="" class="pro-img" />
+      <p><span>Ibraheem </span> <br />Ogundele</p>
+    </div>
+
+    <nav class="navbar">
+      <a href="#" class="active"><i class="fa fa-home icons"></i> Dashboard</a>
+      <a href="#"><i class="fa fa-shopping-bag icons"></i> Active Orders</a>
+      <a href="#"><i class="fa fa-tags"></i> Plans</a>
+      <a href="#"><i class="fa fa-heart"></i> Saved Items</a>
+      <a href="#"><i class="fa fa-question-circle"></i> Help</a>
+      <a href="#"><i class="fa fa-cogs"></i> settings</a>
+    </nav>
+    <!-- navbar section end -->
+
+    <div class="main2">
+      <h3>
+        Account Overview <span><a href="#">Logout</a></span>
+      </h3>
+      <div class="row">
+        <div class="column">
+          <h5>Account Details <span class="fa fa-wallet"></span></h5>
+          <h6>Ibraheem Ogundele <i class="fa fa-star checked"></i></h6>
+          <p>
+            ogundeleibraheem@gmail.com<br />
+            +2348109019750
+          </p>
+          <a href="#">Change Email</a>
+          <a href="#">Change Phone Number</a>
+          <a href="#">Change Password</a>
+        </div>
+        <div class="column">
+          <h5>
+            Delivery Addresses<span class="fa fa-plus">
+              Add another address</span
+            >
+          </h5>
+
+          <h6>Home Address</h6>
+          <p>No 11, illamoji Qtrs, Basiri Ado Ekiti, Nigeria</p>
+          <h6>Office Address</h6>
+          <p>No 1, along NTA rd, Satellite, Ado Ekiti, Nigeria</p>
+        </div>
+      </div>
+
+      <div class="summary">
+        <h5>summary</h5>
+        <p>February, 14th, 2022</p>
+
+        <div class="chart">
+          <canvas id="myChart" style="width: 100%; max-width: 600px"></canvas>
+
+          <div class="orders">
+            <div class="column">
+              <i class="fa fa-shopping-cart"></i>
+              <p>February Summary</p>
+              <h5>50 orders</h5>
+            </div>
+
+            <div class="column2">
+              <i class="fa fa-shopping-cart"></i>
+              <p>January Summary</p>
+              <h5>50 orders</h5>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="js/chart.js"></script>
+  </body>
+</html>

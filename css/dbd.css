@@ -1,0 +1,495 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500;600;700&display=swap");
+* {
+  font-family: "poppins", sans-serif;
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  outline: none;
+  border: none;
+  text-decoration: none;
+  text-transform: capitalize;
+}
+
+html {
+  font-size: 62.5%;
+  overflow-x: hidden;
+}
+
+body {
+  background: #e4f3ec;
+}
+
+.clearfix {
+  clear: both;
+}
+
+.topbar {
+  background: #41eb96;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 7rem;
+  color: white;
+}
+
+.topbar img {
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+  margin: 10px;
+}
+
+.topbar .pro-img {
+  border-radius: 40%;
+  height: 40px;
+  margin: 10px;
+  margin-left: 10rem;
+}
+
+.topbar i {
+  margin: 20px;
+  font-size: 1.7rem;
+  padding-left: 5rem;
+}
+
+.topbar h2 {
+  font-size: 2.5rem;
+  padding-top: 1rem;
+}
+
+.topbar p {
+  padding-top: 1rem;
+  font-size: 12px;
+}
+
+.topbar p span {
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.topbar h3 {
+  margin-left: 10rem;
+  padding-top: 2rem;
+  font-size: 1.5rem;
+  font-weight: normal;
+}
+
+.topbar h3 span {
+  font-weight: bold;
+}
+
+.topbar input {
+  height: 25px;
+  border: 0.7px solid white;
+  background-color: #41eb96;
+  width: 25rem;
+  margin-left: 5rem;
+  margin-top: 2rem;
+  padding: 10px;
+  font-size: 10px;
+}
+
+.topbar button {
+  height: 25px;
+  width: 10rem;
+  margin-left: 2rem;
+  margin-top: 2rem;
+  background-color: white;
+  color: #41eb96;
+  border-radius: 3px;
+}
+
+.navbar {
+  background: whitesmoke;
+  height: 100%;
+  width: 200px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  margin-top: 7rem;
+  padding-top: 3rem;
+  padding-bottom: 0;
+}
+
+.navbar a {
+  display: block;
+  padding: 20px 8px 20px 32px;
+  color: black;
+  font-size: 15px;
+  -webkit-transition: 0.3s linear;
+  transition: 0.3s linear;
+  text-align: justify;
+}
+
+.navbar a i {
+  padding-right: 10px;
+  font-size: 15px;
+}
+
+.navbar a:hover {
+  background-color: #41eb96;
+}
+
+.navbar a .active {
+  background-color: #41eb96;
+}
+
+.main {
+  margin-left: 200px;
+}
+
+.main .head {
+  padding: 20px;
+  background: #a1e9c5;
+  height: 10rem;
+  z-index: -900;
+}
+
+.main .head .col-6 {
+  float: left;
+  width: 50%;
+}
+
+.main .head .col-6 span {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: black;
+  display: block;
+}
+
+.main .active {
+  border: 1px solid #41eb96;
+}
+
+.main .content {
+  float: left;
+  width: 30%;
+  z-index: 1;
+  margin-top: -3rem;
+}
+
+.main .content .box {
+  height: 70px;
+  background-color: whitesmoke;
+  margin-left: 40px;
+  padding: 10px;
+  -webkit-box-shadow: 0px 4px 10px #00000026;
+          box-shadow: 0px 4px 10px #00000026;
+  border-radius: 5px;
+}
+
+.main .content .box p {
+  font-size: 1.5rem;
+  font-weight: normal;
+  line-height: 20px;
+  padding-left: 10px;
+  display: inline-block;
+  color: black;
+  text-transform: uppercase;
+}
+
+.main .content .box p span {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: black;
+  text-transform: uppercase;
+}
+
+.main .content .box p span sup {
+  text-transform: uppercase;
+  font-size: 1rem;
+}
+
+.main .content .box i {
+  font-size: 1rem !important;
+  float: right;
+  color: white;
+  background: #41eb96;
+  border-radius: 50%;
+  padding: 10px;
+  border: 1px solid #41eb96;
+  margin-top: 10px;
+  margin-right: 30px;
+}
+
+.main .col-6 {
+  float: left;
+  width: 50%;
+  padding: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.main .col-6 span {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: black;
+  display: block;
+  margin-right: 20rem;
+}
+
+.main .col-6 a {
+  font-size: 1.2rem;
+  margin-right: 5rem;
+  margin-top: 1rem;
+  color: #414040;
+}
+
+.main .tab {
+  float: left;
+  padding-left: 25px;
+}
+
+.main .tab button {
+  background-color: inherit;
+  float: left;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 12px 20px;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+.main .tab button:hover {
+  background: #41eb96;
+}
+
+.main .tabcontent {
+  float: left;
+  padding-left: 30px;
+}
+
+.main .tabcontent .row {
+  float: left;
+  width: 40rem;
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+}
+
+.main .tabcontent .row .column {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin-right: 40px;
+  position: relative;
+}
+
+.main .tabcontent .row .column img {
+  width: 32rem;
+  display: block;
+  height: 12rem;
+  border-radius: 5px;
+  -webkit-box-shadow: 0px 4px 10px #00000026;
+          box-shadow: 0px 4px 10px #00000026;
+  -webkit-transition: 0.3s linear;
+  transition: 0.3s linear;
+}
+
+.main .tabcontent .row .column img:hover {
+  width: 31rem;
+}
+
+.main .tabcontent .row .column img i {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+.main .tabcontent .row .column p {
+  font-size: 1.2rem;
+  margin-bottom: 12px;
+  margin-top: 3px;
+}
+
+.main .tabcontent .row .column p span {
+  text-transform: uppercase;
+  font-weight: bold;
+  color: #41eb96;
+}
+
+.main .foot {
+  float: right;
+  padding-right: 8rem;
+  padding-top: 30px;
+}
+
+.main .foot a {
+  margin-right: 35px;
+}
+
+.main2 {
+  margin-left: 250px;
+  -webkit-box-shadow: 0px 4px 10px #00000026;
+          box-shadow: 0px 4px 10px #00000026;
+  border-radius: 5px;
+  margin-right: 5rem;
+  margin-top: 2rem;
+  padding: 0.5rem;
+  background: white;
+}
+
+.main2 h3 {
+  margin: 5px;
+  border: 1px solid rgba(0, 0, 0, 0.15);
+  margin-right: 5rem;
+  padding: 1rem;
+  border-radius: 5px;
+}
+
+.main2 h3 span {
+  margin-left: 80rem;
+}
+
+.main2 .row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.main2 .row .column {
+  -webkit-box-flex: 20%;
+      -ms-flex: 20%;
+          flex: 20%;
+  border: 1px solid rgba(0, 0, 0, 0.15);
+  border-radius: 5px;
+  margin-right: 5rem;
+  padding: 10px;
+  line-height: 2rem;
+}
+
+.main2 .row .column span {
+  float: right;
+}
+
+.main2 .row .column span i {
+  color: #41eb96;
+}
+
+.main2 .row .column h5 {
+  font-size: 12px;
+  font-weight: normal;
+  padding-bottom: 1rem;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.15);
+}
+
+.main2 .row .column h6 {
+  font-size: 12px;
+  padding-top: 1rem;
+}
+
+.main2 .row .column h6 i {
+  float: right;
+  color: green;
+}
+
+.main2 .row .column p {
+  font-size: 12px;
+}
+
+.main2 .row .column a {
+  margin-top: 20rem;
+  margin-right: 20px;
+  font-size: 12px;
+  color: #747272;
+}
+
+.main2 .summary {
+  border: 1px solid rgba(0, 0, 0, 0.15);
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  border-radius: 8px;
+  padding: 2rem;
+  margin-right: 5rem;
+  margin-top: 2rem;
+}
+
+.main2 .summary h5 {
+  font-size: 16px;
+}
+
+.main2 .summary p {
+  font-size: 12px;
+}
+
+.main2 .summary .chart {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.main2 .summary .chart .orders {
+  padding: 1rem;
+  border-left: 1px solid #747272;
+}
+
+.main2 .summary .chart .orders .column {
+  border: 1px solid #4eb370;
+  border-radius: 5px;
+  background: #4eb370;
+  -webkit-box-shadow: 0px 4px 5px #00000040;
+          box-shadow: 0px 4px 5px #00000040;
+  margin: 1rem;
+  text-align: center;
+  color: white;
+  padding: 0.7rem 6rem;
+}
+
+.main2 .summary .chart .orders .column i {
+  font-size: 18px;
+}
+
+.main2 .summary .chart .orders .column p {
+  font-size: 12px;
+}
+
+.main2 .summary .chart .orders .column h5 {
+  font-size: 18px;
+}
+
+.main2 .summary .chart .orders .column2 {
+  border: 1px solid #fec400;
+  border-radius: 5px;
+  background: #fec400;
+  -webkit-box-shadow: 0px 4px 5px #00000040;
+          box-shadow: 0px 4px 5px #00000040;
+  margin: 1rem;
+  text-align: center;
+  color: white;
+  padding: 0.7rem 6rem;
+}
+
+.main2 .summary .chart .orders .column2 i {
+  font-size: 18px;
+}
+
+.main2 .summary .chart .orders .column2 p {
+  font-size: 12px;
+}
+
+.main2 .summary .chart .orders .column2 h5 {
+  font-size: 18px;
+}
+
+.error {
+  padding: 0.7rem;
+  text-align: center;
+  background: #c2c0c0;
+  padding-bottom: 8.5rem;
+}
+
+.error h1 {
+  font-size: 60px;
+}
+
+.error img {
+  padding: 2rem;
+}
+
+.error p {
+  font-size: 14px;
+  padding-top: 2rem;
+}
+/*# sourceMappingURL=dbd.css.map */

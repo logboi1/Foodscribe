@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" type="text/css" href="css/dbd.css" />
+
+    <!-- font awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+    />
+
+    <title>Dashboard</title>
+  </head>
+  <body>
+    <!-- navbar section start -->
+
+    <div class="topbar">
+      <img src="img/Group 115 (1).png" alt="" />
+      <h2>foodscribe</h2>
+      <h3>Hi <span>Admin</span></h3>
+      <input
+        type="search"
+        name="search"
+        id=""
+        placeholder="search service and catergories"
+      />
+      <button type="submit">Search</button>
+
+      <i class="fa fa-bell"></i>
+      <i class="fa fa-shopping-cart"></i>
+      <img src="img/user.png" alt="" class="pro-img" />
+      <p><span>Ibraheem </span> <br />Ogundele</p>
+    </div>
+
+    <nav class="navbar">
+      <a href="#" class="active"><i class="fa fa-home icons"></i> Dashboard</a>
+      <a href="#"><i class="fa fa-shopping-bag icons"></i> Active Orders</a>
+      <a href="#"><i class="fa fa-tags"></i> Plans</a>
+      <a href="#"><i class="fa fa-heart"></i> Saved Items</a>
+      <a href="#"><i class="fa fa-question-circle"></i> Help</a>
+      <a href="#"><i class="fa fa-cogs"></i> settings</a>
+    </nav>
+    <!-- navbar section end -->
+
+    <div class="main">
+      <div class="head">
+        <div class="col-6">
+          <span>Overview</span>
+        </div>
+        <div class="clearfix"></div>
+      </div>
+      <div class="clearfix"></div>
+      <div class="content">
+        <div class="box">
+          <p>
+            F-Wallet balance<br /><span><sup>ngn</sup>100,000</span>
+          </p>
+          <i class="fa fa-wallet"></i>
+        </div>
+      </div>
+
+      <div class="content">
+        <div class="box">
+          <p>orders in (30 days)<br /><span>100</span></p>
+          <i class="fa fa-shopping-bag"></i>
+        </div>
+      </div>
+
+      <div class="content">
+        <div class="box">
+          <p>present plan<br /><span>diamond</span></p>
+          <i class="fa fa-tags"></i>
+        </div>
+      </div>
+
+      <div class="clearfix"></div>
+
+      <div class="col-6">
+        <span>catergories</span>
+        <a href="#" class="clck">foods</a>
+        <a href="#">Laundry</a>
+        <a href="#">Cleaning</a>
+        <a href="#">Errands</a>
+        <a href="#">Rideshare</a>
+      </div>
+
+      <div class="clearfix"></div>
+
+      <div class="line"></div>
+      <div class="clearfix"></div>
+
+      <!-- Tab links -->
+      <div class="tab">
+        <button class="tablinks active" onclick="openCity(event, 'fries')">
+          fries
+        </button>
+        <button class="tablinks" onclick="openCity(event, 'snacks')">
+          snacks
+        </button>
+        <button class="tablinks" onclick="openCity(event, 'fruits')">
+          fruits
+        </button>
+        <button class="tablinks" onclick="openCity(event, 'vegetables')">
+          vegetables
+        </button>
+        <button class="tablinks" onclick="openCity(event, 'meat & poultry')">
+          meat & poultry
+        </button>
+        <button class="tablinks" onclick="openCity(event, 'fish & seafood')">
+          fish & seafood
+        </button>
+        <button class="tablinks" onclick="openCity(event, 'dairy foods')">
+          dairy foods
+        </button>
+        <button class="tablinks" onclick="openCity(event, 'african dishes')">
+          african dishes
+        </button>
+      </div>
+      <div class="clearfix"></div>
+      <!-- Tab content -->
+      <div id="fries" class="tabcontent">
+        <div class="row">
+          <div class="column">
+            <img src="img/image.png" alt="" />
+            <p>french fries <span>ngn2,500</span></p>
+          </div>
+
+          <div class="column">
+            <img src="img/image 2.png" alt="" />
+            <p>cheese fries <span>ngn2,500</span></p>
+          </div>
+
+          <div class="column">
+            <img src="img/image 3.png" alt="" />
+            <p>fondue fries <span>ngn2,500</span></p>
+          </div>
+        </div>
+
+        <div class="clearfix"></div>
+        <div class="row">
+          <div class="column">
+            <img src="img/image 4.png" alt="" />
+            <p>spicy cheese <span>ngn2,500</span></p>
+          </div>
+
+          <div class="column">
+            <img src="img/image (1).png" alt="" />
+            <p>crispy fried chicken with soy garlic <span>ngn2,500</span></p>
+          </div>
+
+          <div class="column">
+            <img src="img/image 5.png" alt="" />
+            <p>crispy fried chicken with soy garlic <span>ngn2,500</span></p>
+          </div>
+        </div>
+      </div>
+
+      <div id="snacks" class="tabcontent"></div>
+      <!-- main div -->
+      <div class="clearfix"></div>
+      <div class="foot">
+        <a href="#">Legal</a>
+        <a href="#">Privacy policy</a>
+        <a href="#">Privacy centre</a>
+        <a href="#">Cookies</a>
+        <a href="#">About Ads</a>
+      </div>
+    </div>
+  </body>
+</html>
