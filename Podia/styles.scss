@@ -1,0 +1,110 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Fira Code', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+body{
+   background-image: url(img/e6921a2ba815d72975bb99c77b2eb82c.gif);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    
+}
+
+
+
+.menubar{
+    height: 4rem;
+    width: 40rem;
+    border-radius: 45px;
+    background: rgba(255, 255, 255, 0.2);
+
+    box-shadow: 0 4px 30px rgba(3, 3, 3, 0.1);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+
+    position: absolute;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    align-content: center;
+    padding: 0 3rem;
+    top: 1rem;
+    left: 25rem;
+    
+
+    a{
+        text-decoration: none;
+        // margin-right: 3rem;
+        font-size: 24px;
+        color:rgb(255, 255, 255);
+    }
+}
+
+.main{
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(5, 5, 5, 0.1);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(5px);
+    border: 1px solid rgba(235, 235, 235, 0.3);
+    color: white;
+    height: 30rem;
+    width: 50rem;
+    top: 10rem;
+    left: 20rem;
+    position: absolute;
+    padding: 8rem 2rem;
+    
+
+    
+    .mleft{
+        padding-right: 16rem;
+        
+        h1{
+            font-size: 2rem;
+            span{
+                color: crimson;
+            }
+        }
+
+        p{
+            font-size: 20px;
+            font-weight: normal;
+            line-height: 30px;
+            margin-top: 2rem;
+
+            span{
+                color: crimson;
+                font-weight: bold;
+            }
+        }
+
+        button{
+            padding: .3rem 6rem;
+            margin-top: 4rem;
+            font-size: 20px;
+            color: crimson;
+            font-weight: bold;
+            background: rgba(255, 255, 255, 0.13);
+            border-radius: 16px;
+            box-shadow: 0 4px 30px rgba(5, 5, 5, 0.1);
+            backdrop-filter: blur(10px);
+            -webkit-backdrop-filter: blur(5px);
+            border: 1px solid rgba(235, 235, 235, 0.3);
+        }
+    }
+    .mright{
+        flex: 1;
+
+        img{
+            position: absolute;
+            height: 30rem;
+            top: 2rem;
+            right: -7rem;
+        }
+    }
+}

@@ -1,0 +1,92 @@
+* {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  background-color: #c5d4d4;
+}
+
+header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 2rem 3rem;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+header .logo {
+  font-weight: bold;
+  font-size: 24px;
+}
+
+header .nav-links a {
+  margin-right: 2rem;
+  text-decoration: none;
+  font-weight: bold;
+  color: #585858;
+}
+
+header .lang {
+  font-weight: bold;
+}
+
+.container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  padding: 3rem 7rem;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.container p {
+  font-size: 16px;
+  margin-bottom: 3rem;
+  line-height: 20px;
+  text-align: justify;
+}
+
+.container h1 {
+  font-size: 4rem;
+  font-weight: bold;
+  margin-bottom: 1rem;
+}
+
+.container h1 span {
+  color: crimson;
+}
+
+.container button {
+  border: 1px solid #0a0909;
+  padding: 1rem 4rem;
+  border-radius: 5px;
+  background-color: #0a0909;
+  color: #c5d4d4;
+  font-size: 16px;
+  cursor: pointer;
+  -webkit-transition: 0.3s all ease;
+  transition: 0.3s all ease;
+}
+
+.container button:hover {
+  background-color: #c5d4d4;
+  color: #0a0909;
+  border: 1px solid #0a0909;
+}
+
+.container img {
+  height: 50rem;
+  right: 0;
+}
+/*# sourceMappingURL=idan.css.map */

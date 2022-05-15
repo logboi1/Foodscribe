@@ -1,0 +1,116 @@
+* {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: 'Fira Code', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+body {
+  background-image: url(img/e6921a2ba815d72975bb99c77b2eb82c.gif);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.menubar {
+  height: 4rem;
+  width: 40rem;
+  border-radius: 45px;
+  background: rgba(255, 255, 255, 0.2);
+  -webkit-box-shadow: 0 4px 30px rgba(3, 3, 3, 0.1);
+          box-shadow: 0 4px 30px rgba(3, 3, 3, 0.1);
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  position: absolute;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  padding: 0 3rem;
+  top: 1rem;
+  left: 25rem;
+}
+
+.menubar a {
+  text-decoration: none;
+  font-size: 24px;
+  color: white;
+}
+
+.main {
+  background: rgba(255, 255, 255, 0.2);
+  border-radius: 16px;
+  -webkit-box-shadow: 0 4px 30px rgba(5, 5, 5, 0.1);
+          box-shadow: 0 4px 30px rgba(5, 5, 5, 0.1);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(5px);
+  border: 1px solid rgba(235, 235, 235, 0.3);
+  color: white;
+  height: 30rem;
+  width: 50rem;
+  top: 10rem;
+  left: 20rem;
+  position: absolute;
+  padding: 8rem 2rem;
+}
+
+.main .mleft {
+  padding-right: 16rem;
+}
+
+.main .mleft h1 {
+  font-size: 2rem;
+}
+
+.main .mleft h1 span {
+  color: crimson;
+}
+
+.main .mleft p {
+  font-size: 20px;
+  font-weight: normal;
+  line-height: 30px;
+  margin-top: 2rem;
+}
+
+.main .mleft p span {
+  color: crimson;
+  font-weight: bold;
+}
+
+.main .mleft button {
+  padding: .3rem 6rem;
+  margin-top: 4rem;
+  font-size: 20px;
+  color: crimson;
+  font-weight: bold;
+  background: rgba(255, 255, 255, 0.13);
+  border-radius: 16px;
+  -webkit-box-shadow: 0 4px 30px rgba(5, 5, 5, 0.1);
+          box-shadow: 0 4px 30px rgba(5, 5, 5, 0.1);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(5px);
+  border: 1px solid rgba(235, 235, 235, 0.3);
+}
+
+.main .mright {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+}
+
+.main .mright img {
+  position: absolute;
+  height: 30rem;
+  top: 2rem;
+  right: -7rem;
+}
+/*# sourceMappingURL=styles.css.map */
